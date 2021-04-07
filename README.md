@@ -57,3 +57,41 @@ Tips:
 [{"uid": 1, "name": "\u5de5\u65701", "type": "BiXiu", "credit": 6.0, "score": 92.0}, {"uid": 2, "name": "\u7ebf\u4ee3", "type": "BiXiu", "credit": 4.0, "score": 91.0}, {"uid": 3, "name": "C++", "type": "BiXiu", "credit": 2.0, "score": 95.0}, {"uid": 4, "name": "\u82f1\u8bed", "type": "BiXiu", "credit": 2.0, "score": 88.0}, {"uid": 5, "name": "\u4f53\u80b2", "type": "BiXiu", "credit": 0.5, "score": 83.0}, {"uid": 6, "name": "\u8fd1\u4ee3\u53f2", "type": "BiXiu", "credit": 3.0, "score": 88.0}, {"uid": 7, "name": "\u601d\u4fee", "type": "BiXiu", "credit": 3.0, "score": 89.0}, {"uid": 8, "name": "\u5f62\u7b56", "type": "BiXiu", "credit": 0.25, "score": 96.0}]
 ```
 
+### 运行实例
+
+```
+Select "score list"
+========================================
+uid     name    note    mapto
+1       大一上  1-1     20210407132900
+2       大一下  1-3     20210407132928
+
+========================================
+0       Create a score list
+-1      Delete a score list
+>>>INPUT: select:
+```
+
+```
+Score List: 大一上
+========================================
+uid     name    type    credit  score
+1       工数1   BiXiu   6.0     92.0
+2       线代    BiXiu   4.0     91.0
+3       C++     BiXiu   2.0     95.0
+4       英语    BiXiu   2.0     88.0
+5       体育    BiXiu   0.5     83.0
+6       近代史  BiXiu   3.0     88.0
+7       思修    BiXiu   3.0     89.0
+8       形策    BiXiu   0.25    96.0
+
+Credit counted in "BiXiu"：20.75
+4.8 GPA: 3.9686746987951813
+
+========================================
+0       Create a lesson
+-1      Delete a lesson
+-2      BACK TO LIST PAGE
+>>>INPUT: select:
+```
+
