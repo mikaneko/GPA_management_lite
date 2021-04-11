@@ -1,0 +1,3 @@
+Southeast University Tested
+修复学分计算一个小bug
+增加了合计学分的功能
